@@ -1,0 +1,31 @@
+// Terraform Commands
+
+1. `terraform init` - Initialize a working directory containing Terraform configuration files
+
+2. `terraform plan` - Generate and show an execution plan
+
+3. `terraform apply` - Builds or changes infrastructure
+
+4. `terraform destroy` - Destroy Terraform-managed infrastructure
+
+5. `terraform show` - Inspect Terraform state or plan
+
+6. `terraform refresh` - Update local state file against real resources
+
+7. `terraform taint` - Manually mark a resource for recreation
+
+8. `terraform untaint` - Manually unmark a resource as tainted
+
+9. `terraform import` - Import existing infrastructure into Terraform
+
+10. `terraform graph` - Create a visual graph of Terraform resources
+
+11. `terraform output` - Read an output from a state file
+
+12. `terraform push` - Upload this Terraform module to Atlas to run
+
+13. `terraform console` - Try Terraform interpolations
+
+14. `terraform force-unlock` - Manually unlock the terraform state
+
+15. `terraform state` - Advanced state management
