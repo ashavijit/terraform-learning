@@ -24,6 +24,15 @@ resource "aws_instance" "my_ec2" {   #AMI means Amazon Machine Image
    }
 } 
 
+resource "aws_s3_bucket" "my_s3"{
+	bucket = "1223445-s3-bucket"  #bucket name should be unique otherwise it will throw error 
+	tags = {
+		name = "my_s3_bucket"
+		Environment = "Dev"
+	}
+
+}
+
 output "public_ip" {
   value = aws_instance.my_ec2[*].public_ip  #[*] means all the instances in Array
 }
