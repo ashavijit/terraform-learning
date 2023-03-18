@@ -42,3 +42,4 @@ output "public_ip" {
 # terraform apply
 
 # terraform destroy
+
